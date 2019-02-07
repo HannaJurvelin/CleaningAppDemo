@@ -1,0 +1,47 @@
+body {
+    background: #f2f2f2;
+}
+
+article {
+    margin: 20px;
+}
+
+footer {
+    background-color: #1a5094;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+
+.headercontent {
+    position: relative;
+}
+
+.headertext {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+    border: 0;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    padding: 20px;  
+  }
